@@ -1,0 +1,45 @@
+*{
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+article{
+    background-color: hsl(0deg 0% 12.16%);
+    width: 350px;
+    height: 500px;
+    padding: 40px;
+    margin: 60px auto;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img{
+    width: 80px;
+    border-radius: 800px;
+}
+
+button{
+    background-color: hsl(0deg 0% 20%);
+    border-radius: 5px;
+    width: 250px;
+    height: 35px;
+    margin: 5px;
+    border: none;
+}
+
+button :hover{
+    background-color: hsl(0, 20%, 0.305%) ;
+}
+
+#Nombre{
+    font-weight: bolder;
+
+}
+#localizacion{
+    color: hsl(73.53deg 89.64% 62.16%);
+}
